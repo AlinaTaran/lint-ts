@@ -1,0 +1,12 @@
+{
+  "name": "project-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "typecheck": "tsc --project tsconfig.json --pretty"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
