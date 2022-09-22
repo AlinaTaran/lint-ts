@@ -1,3 +1,5 @@
-export const a: boolean = true;
+import { randomNumber } from "~utils";
 
-console.log(a);
+import { a } from "~constants";
+
+console.log(randomNumber, a);

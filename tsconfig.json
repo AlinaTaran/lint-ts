@@ -20,13 +20,17 @@
     "incremental": true,
     // "noUncheckedIndexedAccess": true,
     "baseUrl": ".",
+    "paths": {
+      "~utils": [
+        "src/utils.ts"
+      ],
+      "~constants": [
+        "src/constants.ts"
+      ]
+    },
   },
   "include": [
-    "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "**/*.cjs",
-    "**/*.mjs"
   ],
   "exclude": [
     "node_modules"
