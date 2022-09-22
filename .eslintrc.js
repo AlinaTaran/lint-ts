@@ -5,7 +5,7 @@ module.exports = {
   },
   extends: ['plugin:@typescript-eslint/recommended', 'airbnb', 'airbnb-typescript', 'plugin:prettier/recommended'],
   plugins: ['simple-import-sort'],
-  ignorePatterns: ['.eslintrc.js'],
+  ignorePatterns: ['.eslintrc.js', 'webpack.config.js'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'warn',
     // Imports
